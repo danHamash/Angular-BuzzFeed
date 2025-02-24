@@ -3,6 +3,9 @@
   width: 80%;
   margin: 1rem auto;
 }
+.logo img{
+  width: 70%;
+}
 .quizz-logo, .quizz-question{
   display: flex;
   flex-direction: column;
