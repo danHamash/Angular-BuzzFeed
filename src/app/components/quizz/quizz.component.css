@@ -3,14 +3,20 @@
   width: 80%;
   margin: 1rem auto;
 }
-.quizz-logo img{
-  width: 30%;
-}
 .quizz-logo, .quizz-question{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.image-logo{
+
+  background-color: #000000b4;
+  padding:1rem ;
+  border-radius: 9px;
+}
+.quizz-logo img{
+  width: 40%;
 }
 .quizz-title{
   margin: 1rem 0;
@@ -61,5 +67,4 @@ margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
