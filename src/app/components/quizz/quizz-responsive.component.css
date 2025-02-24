@@ -1,0 +1,8 @@
+@media screen and (min-Width:320px) and (max-width:720px){
+  .quizz-logo img{
+    width: 110%;
+  }
+  .quizz-question h3{
+    font-size: .8rem;
+  }
+}

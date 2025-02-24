@@ -4,7 +4,11 @@ import quizz_questions from "../../../assets/data/quizz_questions.json"
   selector: 'app-quizz',
   standalone: false,
   templateUrl: './quizz.component.html',
-  styleUrl: './quizz.component.css'
+  styleUrls: [
+    './quizz.component.css',
+    './quizz-responsive.component.css'
+
+  ]
 })
 export class QuizzComponent implements OnInit {
 
